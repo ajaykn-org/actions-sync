@@ -108,7 +108,20 @@ When creating a personal access token include the `repo` and `workflow` scopes. 
 
 ## Release 
 
-We use go releaser to push a new release
+We use go releaser to push a new release.
+- Create a tag: 
+```code
+git tag -a `date "+v%Y%m%d%H%M%S"` -m "Release a new version"
+```
+- Get the tag name:
+```code
+git tag
+```
+- Push the newly created tag
+```code
+git push origin <tag>
+```
+- Check workflow `releases.yml` should trigger
 
 ## Contributing
 
