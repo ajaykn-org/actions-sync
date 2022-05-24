@@ -108,6 +108,8 @@ When creating a personal access token include the `repo` and `workflow` scopes. 
 
 ## Release 
 
+We use go releaser to push a new release
+
 ## Contributing
 
 If you would like to contribute your work back to the project, please see
