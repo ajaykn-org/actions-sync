@@ -106,6 +106,8 @@ When no machine has access to both the public internet and the GHES instance:
 
 When creating a personal access token include the `repo` and `workflow` scopes. Include the `site_admin` scope (optional) if you want organizations to be created as necessary.
 
+## Release 
+
 ## Contributing
 
 If you would like to contribute your work back to the project, please see
