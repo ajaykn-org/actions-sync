@@ -1,4 +1,4 @@
-# Actions Sync
+# Actions Sync - test
 
 <p align="center">
   <img src="docs/arrow.png">
